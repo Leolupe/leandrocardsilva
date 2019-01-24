@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Sarabun);
+
+
+/* DESIGN PARA DESKTOPS */
+@media (min-width: 1024px) {
+
+html, body {
+	border: none;
+	font-family: 'Sarabun', sans-serif;
+	}
+
+div#interface {
+    background-image: url('../imagens/Workshop_bg.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    position:absolute;
+    left:0px;
+    top:0;
+    margin-top:-50%;
+    height: 100%;
+    width:100%;
+    margin:0;
+    background-size: 1115px;
+    position: right;
+
+	}
+
+div#conteudo {
+   margin-left: 6%;
+   margin-top: 7%;
+   width: 540px;
+   background-color: #f7f7f7;
+   padding-left: 50px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   height: 330px;
+   border-left: 8px solid #81a7f2;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+}
+
+div#conteudo:hover {
+   margin-left: 6%;
+   margin-top: 7%;
+   width: 540px;
+   background-color: #f7f7f7;
+   padding-left: 50px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   height: 330px;
+   border-left: 8px solid #315bd0;
+   transition: 0.8s;
+}
+
+
+h1 {
+   font-size: 35px;
+   }
+
+p {
+	font-size: 18px;
+	color: #5b6e7b;
+}
+
+.txtEmail {
+   padding: 9px;
+   width: 300px;
+   border: 2px solid #81a7f2;
+   text-align: center;
+   color: #5b6e7b;
+   outline: none;
+   font-size: 17px;
+
+
+}
+
+
+.button {
+	margin-left: auto;
+	padding: 9px;
+	width: 322px;
+	background-color: #81a7f2;
+	border: 2px solid #81a7f2;
+	color: #5b6e7b;
+	outline: none;
+
+}
+
+.button:hover {
+	margin-left: auto;
+	padding: 9px;
+	width: 322px;
+	background-color: #315bd0;
+	border: 2px solid #315bd0;
+	transition: 0.6s;
+	color: #fff;
+	outline: none;
+}
+
+}
+
+/* ------------------------------------------------------*/
+
+/* DESIGN PARA MOBILE */
+@media (max-width: 1023px) {
+
+   html, body {
+	border: none;
+	font-family: 'Sarabun', sans-serif;
+	}
+
+
+/* CONFIGURAÇÕES BACKGROUND */
+
+
+
+
+div#conteudo {
+   display: block;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   height: 1200px;
+   
+   background-color: #f7f7f7;
+   
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border: 8px solid #81a7f2;
+   background-image: url('../imagens/Workshop_bg_responsive.png');
+   background-position: bottom;
+   background-repeat: no-repeat;
+   
+   
+}
+
+h1 {
+   font-size: 65px;
+   text-align: center;
+   }
+
+p {
+	font-size: 45px;
+	color: #5b6e7b;
+	text-align: center;
+}
+
+.txtEmail {
+	width: 93%;
+   padding: 30px;   
+   border: 2px solid #81a7f2;
+   text-align: center;
+   color: #5b6e7b;
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
+   outline: none;
+   font-size: 30px;
+
+
+}
+
+
+.button {
+	width: 100%;
+	padding: 30px;
+    background-color: #81a7f2;
+	border: 2px solid #81a7f2;
+	border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+	color: #fff;
+	font-size: 30px;
+
+}
+
+.form {
+	overflow: hidden;
+        padding: 0;
+        margin-bottom: 1em;
+}
+
+.form input[type=email] {
+	overflow: hidden;
+        padding: 0;
+        margin-bottom: 1em;
+
+
+
+}
+
+.form input[type=submit] {
+        overflow: hidden;
+        padding: 0;
+        margin-bottom: 1em;
+        	
+        }
+
+
+}
+
+/* ---------------------------------------------------- */
+
+
+
+
+
